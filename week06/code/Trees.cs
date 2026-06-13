@@ -60,9 +60,11 @@ public static class Trees
     // Insert it into the tree
     bst.Insert(sortedNumbers[middle]);
 
-    // Process left half
+    // Process of left half
     InsertMiddle(sortedNumbers, first, middle - 1, bst);
 
-    // Process right half
+    // Process Of right half
     InsertMiddle(sortedNumbers, middle + 1, last, bst);
-}
+} 
+
+} 
